@@ -1,6 +1,8 @@
 name: helloGithubAction
 
-on: [push]
+on:
+  schecule:
+    - cron: "*/10****"
 
 jobs:
   build:
